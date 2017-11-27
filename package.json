@@ -1,6 +1,6 @@
 {
   "name": "fli-init-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fli init boilerplate config",
   "files": [
     "index.js"
@@ -11,13 +11,17 @@
         "package": "fli-boilerplate-mobx",
         "description": "Mobx app boilerplate"
       },
-      "empty": {
+      "graphql": {
         "package": "fli-boilerplate-graphql",
         "description": "Egg & graphql app boilerplate"
       },
-      "plugin": {
+      "react": {
         "package": "fli-boilerplate-react",
         "description": "react & webpack boilerplate"
+      },
+      "eggts": {
+        "package": "fli-boilerplate-egg-ts",
+        "description": "egg & typescript boilerplate"
       }
     }
   },
