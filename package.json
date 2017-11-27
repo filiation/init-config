@@ -1,0 +1,35 @@
+{
+  "name": "fli-init-config",
+  "version": "0.0.1",
+  "description": "fli init boilerplate config",
+  "files": [
+    "index.js"
+  ],
+  "config": {
+    "boilerplate": {
+      "mobx": {
+        "package": "fli-boilerplate-mobx",
+        "description": "Mobx app boilerplate"
+      },
+      "empty": {
+        "package": "fli-boilerplate-graphql",
+        "description": "Egg & graphql app boilerplate"
+      },
+      "plugin": {
+        "package": "fli-boilerplate-react",
+        "description": "react & webpack boilerplate"
+      }
+    }
+  },
+  "homepage": "https://github.com/filiation/init-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filiation/init-config.git"
+  },
+  "keywords": [
+    "init"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
